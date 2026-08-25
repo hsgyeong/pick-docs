@@ -2,14 +2,15 @@
    앱 마이페이지의 인앱 브라우저에서 열리므로 모바일 우선 + 밝은 테마 고정. */
 
 :root {
+  /* PicK 브랜드 팔레트(frontend/src/constants/theme.ts의 Brand). */
   --bg: #ffffff;
-  --surface: #f7f8fa;
-  --text: #1b1f24;
-  --muted: #5b636d;
-  --border: #e5e8ec;
-  --accent: #2f6b4f;
-  --accent-weak: #e8f2ec;
-  --link: #256a4a;
+  --surface: #faf7f9;      /* 살짝 분홍기 도는 오프화이트(Brand.background) */
+  --text: #16233f;         /* 제목·본문(Brand.textPrimary 네이비) */
+  --muted: #6b7789;        /* 보조 문구(Brand.textSecondary) */
+  --border: #f0d8e2;       /* 구분선(Brand.border 계열) */
+  --accent: #fc7cac;       /* 메인 핑크(Brand.primary) — 워드마크·강조·콜아웃 */
+  --accent-weak: #fdecf3;  /* 연한 핑크 배경 */
+  --link: #c13a76;         /* 본문 링크 — 가독성 확보한 진한 브랜드 핑크 */
   --maxw: 760px;
 }
 
